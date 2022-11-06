@@ -1,2 +1,2 @@
 # SquadNativeInterface
-native interface with some protections and utils
+native interface with some protections and utils and native boot
