@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\NativeInterface">
+      <UniqueIdentifier>{e349308e-c5a1-4a45-ba0a-5a170c68479c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\NativeInterface\Libraries">
+      <UniqueIdentifier>{8164d05f-3add-46c5-878d-b1cfa15d4026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Entry.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\NativeInterface\Definitions.h">
+      <Filter>Sources\NativeInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Libraries\bsod.h">
+      <Filter>Sources\NativeInterface\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Libraries\lazy_importer.hpp">
+      <Filter>Sources\NativeInterface\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Libraries\skCrypter.h">
+      <Filter>Sources\NativeInterface\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Libraries\unzip.h">
+      <Filter>Sources\NativeInterface\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Libraries\xor.h">
+      <Filter>Sources\NativeInterface\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\NativeInterface\Methods.h">
+      <Filter>Sources\NativeInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
